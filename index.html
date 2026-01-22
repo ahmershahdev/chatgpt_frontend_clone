@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/images/chatgpt.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="#" class="logo-container">
+                    <img src="assets/images/chatgpt.png" alt="ChatGPT" id="logo-image">
+                    <i class="fa-solid fa-pen-to-square edit-icon"></i>
+                </a>
+
+                <div class="dropdown-menu">
+                    <label  class="chatgpt-dropdown-button">ChatGPT</label>
+                    <div class="dropdown-card" id="dropdownCard">
+                        <img src="assets/images/chatgpt dropdown.webp" alt="ChatGPT" class="image">
+                        <h3 class="title">Try advanced features for free</h3>
+                        <p class="description">Get smarter responses, upload files, create images, and more by logging in.</p>
+                        <div class="buttons">
+                            <a href="#login-popup" class="button">Log in</a>
+                            <a href="#login-popup" class="button green">Sign up for free</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="center">
+                <a href="#" class="link">About</a>
+                <div class="link-dropdown">
+                    <a href="#" class="link" tabindex="0">Features</a>
+                    <div class="agent-dropdown" id="agentDropdown">
+                        <button class="agent-option">Agent</button>
+                        <button class="agent-option">Atlas</button>
+                        <button class="agent-option">Codex</button>
+                        <button class="agent-option">Connectors</button>
+                        <button class="agent-option">Deep Research</button>
+                        <button class="agent-option">Desktop Apps</button>
+                        <button class="agent-option">Group Chats</button>
+                        <button class="agent-option">Image Generation</button>
+                        <button class="agent-option">Shopping Research</button>
+                        <button class="agent-option">Study Mode</button>
+                        <button class="agent-option">Voice</button>
+                        <button class="agent-option">Voice with Video</button>
+                    </div>
+                </div>
+                <div class="learn-dropdown-wrapper">
+                    <a href="#" class="link" tabindex="0">Learn</a>
+                    <div class="mega-menu">
+                        <div class="mega-column">
+                            <h4 class="mega-header">ChatGPT for</h4>
+                            <a href="#" class="mega-link">Students</a>
+                            <a href="#" class="mega-link">University Educators</a>
+                            <a href="#" class="mega-link">High School Teachers</a>
+                            <a href="#" class="mega-link">Scientists</a>
+                            <a href="#" class="mega-link">Parents</a>
+                            <a href="#" class="mega-link">Veterans</a>
+                        </div>
+                        <div class="mega-column">
+                            <h4 class="mega-header">Inspiration</h4>
+                            <a href="#" class="mega-link">Image Creation</a>
+                            <a href="#" class="mega-link">Student Writing Guide</a>
+                            <a href="#" class="mega-link">Recipes and Cooking</a>
+                        </div>
+                        <div class="mega-column">
+                            <h4 class="mega-header">Ways to Use</h4>
+                            <a href="#" class="mega-link">Canva in ChatGPT</a>
+                            <a href="#" class="mega-link">Spotify in ChatGPT</a>
+                            <a href="#" class="mega-link">Chat with PDFs</a>
+                            <a href="#" class="mega-link">Chat with Presentations</a>
+                            <a href="#" class="mega-link">Chat with Spreadsheets</a>
+                            <a href="#" class="mega-link">For College Students</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="business-dropdown-wrapper">
+                    <a href="#" class="link" tabindex="0">Business</a>
+                    <div class="mega-menu business-menu">
+                        <div class="mega-column">
+                            <h4 class="mega-header">Business</h4>
+                            <a href="#" class="mega-link">Overview</a>
+                            <a href="#" class="mega-link">Contact Sales</a>
+                            <a href="#" class="mega-link">Merchants</a>
+                        </div>
+                        <div class="mega-column">
+                            <h4 class="mega-header">AI solutions for</h4>
+                            <a href="#" class="mega-link">Data Science & Analytics</a>
+                            <a href="#" class="mega-link">Engineering</a>
+                            <a href="#" class="mega-link">Finance</a>
+                            <a href="#" class="mega-link">Product Management</a>
+                            <a href="#" class="mega-link">Sales & Marketing</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing-dropdown-wrapper">
+                    <a href="#" class="link" tabindex="0">Pricing</a>
+                    <div class="pricing-dropdown">
+                        <button class="pricing-option">Overview</button>
+                        <button class="pricing-option">Free</button>
+                        <button class="pricing-option">Go</button>
+                        <button class="pricing-option">Plus</button>
+                        <button class="pricing-option">Pro</button>
+                        <button class="pricing-option">Business</button>
+                        <button class="pricing-option">Enterprise</button>
+                        <button class="pricing-option">Higher Education</button>
+                    </div>
+                </div>
+                <a href="#" class="create-images" tabindex="0"><span>Images</span></a>
+                <a href="#" class="link">Download</a>
+            </div>
+            
+            <div class="right">
+                <div class="help-wrapper">
+                    <button class="help" tabindex="0">?</button>
+                    <div class="help-dropdown">
+                        <button class="help-option">
+                            <i class="fa-solid fa-star"></i>
+                            See plans and pricing
+                        </button>
+                        <button class="help-option">
+                            <i class="fa-solid fa-gear"></i>
+                            Settings
+                        </button>
+                        <button class="help-option">
+                            <i class="fa-solid fa-question"></i>
+                            Help center
+                        </button>
+                        <button class="help-option">
+                            <i class="fa-solid fa-pen"></i>
+                            Release notes
+                        </button>
+                        <button class="help-option">
+                            <i class="fa-solid fa-file"></i>
+                            Terms and policies
+                        </button>
+                    </div>
+                </div>
+                <a href="#login-popup" class="login">Log in</a>
+                <a href="#login-popup" class="signup">Sign up for free</a>
+            </div>
+        </nav>
+    </header>
+
+    <div id="login-popup">
+        <div class="popup-box">
+            <a href="#" class="close-btn">×</a>
+            
+            <h2 class="popup-title">Log in or sign up</h2>
+            <p class="popup-desc">You'll get smarter responses and can upload files, images, and more.</p>
+            
+            <div class="login-btns">
+                <button class="login-btn">
+                    <i class="fa-brands fa-google"></i>
+                    Continue with Google
+                </button>
+                <button class="login-btn">
+                    <i class="fa-brands fa-apple"></i>
+                    Continue with Apple
+                </button>
+                <button class="login-btn">
+                    <i class="fa-brands fa-microsoft"></i>
+                    Continue with Microsoft
+                </button>
+                <button class="login-btn">
+                    <i class="fa-solid fa-phone"></i>
+                    Continue with phone
+                </button>
+            </div>
+            
+            <div class="divider">
+                <span class="divider-text">OR</span>
+            </div>
+            
+            <div class="form-group">
+                <input type="email" class="form-input" placeholder="Email address">
+            </div>
+            
+            <button class="submit-btn">Continue</button>
+        </div>
+    </div>
+
+    <main>
+        <h1 class="title-big">What can I help with?</h1>
+
+        <div class="box">
+            <div class="input-box">
+                <textarea class="input" placeholder="Ask anything"></textarea>
+
+                <div class="actions">
+                    <div class="options">
+                        <label class="option">
+                            <input type="file" style="display: none;">
+                            <i class="fa-solid fa-paperclip"></i>
+                            Attach
+                        </label>
+                        <button class="option">
+                            <i class="fa-solid fa-globe"></i>
+                            Search
+                        </button>
+                        <button class="option">
+                            <i class="fa-solid fa-book-open"></i>
+                            Study
+                        </button>
+                        <button class="option">
+                            <i class="fa-solid fa-image"></i>
+                            Create image
+                        </button>
+                    </div>
+                    <button class="send">
+                        <i class="fa-solid fa-arrow-up" id="sendIcon"></i>
+                        <i class="fa-solid fa-microphone" id="voiceIcon"></i>
+                    </button>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="footer">By messaging ChatGPT, an AI chatbot, you agree to our <a href="#">Terms</a> and have read our <a href="#">Privacy Policy</a>.</p>
+    </footer>
+</body>
+</html>

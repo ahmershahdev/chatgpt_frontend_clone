@@ -2,7 +2,7 @@
 
 <div align="center">
   <p>
-    A sleek, single-page **ChatGPT frontend clone** built with **HTML, CSS, and JavaScript** for learning and UI demonstration purposes.
+    A sleek, single-page ChatGPT frontend clone** built with HTML, CSS, and JavaScript for learning and UI demonstration purposes.
   </p>
   
   [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](./LICENSE)

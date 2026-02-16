@@ -2,7 +2,8 @@
 
 <div align="center">
   <p>
-    A sleek, single-page ChatGPT frontend clone** built with HTML, CSS, and JavaScript for learning and UI demonstration purposes.
+   A single-page ChatGPT frontend UI clone built with HTML, CSS, and JavaScript.  
+  Created as a learning project while starting frontend development, for practice and UI demonstration purposes.
   </p>
   
   [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](./LICENSE)
@@ -13,14 +14,14 @@
 
 ## 🌟 Overview
 
-This project is a **frontend-only clone of ChatGPT**, designed to simulate a chat interface for AI interactions.  
-It is built as a **single-page application** using HTML, CSS, and vanilla JavaScript, with a focus on:
+This project is a **frontend-only clone of ChatGPT**, made as a **practice project while learning frontend development**.  
+It simulates a chat interface for AI interactions and is built as a **single-page application** using HTML, CSS, and vanilla JavaScript, with a focus on:
 
-- Responsive and modern UI  
-- Interactive chat experience  
-- Easy integration with backend APIs in the future  
+- Practicing **responsive and modern UI design**  
+- Creating an **interactive chat interface**  
+- Learning how frontend can later integrate with backend APIs  
 
-> ⚠️ **Note:** This is **frontend-only** and does not connect to OpenAI or any AI backend by default.
+> ⚠️ **Note:** This is **frontend-only** and does not connect to OpenAI or any AI backend.
 
 ---
 
@@ -96,5 +97,3 @@ See [LICENSE](LICENSE.txt) for details.
   <br>
   © 2026 All Rights Reserved
 </div>
-git clone https://github.com/your-username/chatgpt-clone.git
-cd chatgpt-clone
